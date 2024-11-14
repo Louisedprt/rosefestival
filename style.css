@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #FDACD7;
+    padding: 1Opx;
+    text-align: center;
+}
+
+header h1 {
+    color: #000000;
+    font-size: 2em;
+}
+
+.logo {
+    max-width: 400px;
+    display: inline-flex;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    margin-right: auto; /* Place l'élément à gauche */
+  }
+
+.image1 {
+    width: 100%;
+}
+
+/* Main Banner */
+.banner {
+    background-color: #ff66cc;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.image2 {
+    width: 25%; 
+    display: inside;
+    align-items: right; 
+}
+
+
+.banner h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1em;
+}
+
+.content {
+    background-color: #ffffff;
+    text-align: justify ;
+    padding: 20px;
+    color: #000000;  
+}
+
+/* Edition Section */
+.edition {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    color: #ff66cc;
+}
+
+.edition h2 {
+    font-size: 2em;
+}
+
+.edition p {
+    font-size: 1em;
+}
+
+.stylesheet {
+    
+}
+
+/* Ticket Button */
+.button {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Pass Section */
+.pass-section {
+    background-color: #ff66cc;
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+
+}
+
+.pass-section .pass {
+    display: inline-block;
+    color: #000000;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 2px solid #000000;
+}
+
+
+
+/* Information Section */
+.info-section {
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+}
+
+.info-section p {
+    font-size: 1em;
+    color: #ff66cc;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+/* Brick Wall Background for Styling */
+.brick-wall {
+    background-image: url('path/to/brick-wall.png');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
